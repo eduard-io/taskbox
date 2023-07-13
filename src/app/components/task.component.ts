@@ -1,6 +1,9 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Task } from '../models/task.model';
 
+/** This is the base "Task" component, allowing users to view their pending tasks
+ * mark them as done and pin them to the top of the list.
+ */
 @Component({
   selector: 'app-task',
   template: `
@@ -46,16 +49,21 @@ import { Task } from '../models/task.model';
   `,
 })
 
+/**
+ * It should be possible to write a description here
+ */
 export default class TaskComponent {
   /**
    * The shape of the task object
   */
   @Input() task?: Task;
 
+  /** Event emitted when the task is pined */
   // tslint:disable-next-line: no-output-on-prefix
   @Output()
   onPinTask = new EventEmitter<Event>();
 
+  /** Event emitted when the task is archived/completed */
   // tslint:disable-next-line: no-output-on-prefix
   @Output()
   onArchiveTask = new EventEmitter<Event>();

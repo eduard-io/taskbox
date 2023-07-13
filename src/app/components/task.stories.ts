@@ -14,7 +14,6 @@ const meta: Meta<TaskComponent> = {
   component: TaskComponent,
   excludeStories: /.*Data$/,
   tags: ['autodocs'],
-  //decorators: [withDesign],
   render: (args: TaskComponent) => ({
     props: {
       ...args,
