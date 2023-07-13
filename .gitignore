@@ -43,3 +43,7 @@ Thumbs.db
 
 # Static content
 storybook-static
+.out
+.storybook-out
+storybook-static
+build-storybook.log
