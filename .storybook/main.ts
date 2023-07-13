@@ -6,6 +6,7 @@ const config: StorybookConfig = {
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
     '@storybook/addon-a11y', // Enable accesibility addon
+    '@storybook/addon-designs', // Figma
   ],
   framework: {
     name: '@storybook/angular',
