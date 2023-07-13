@@ -47,3 +47,4 @@ storybook-static
 .storybook-out
 storybook-static
 build-storybook.log
+documentation.json
