@@ -329,7 +329,6 @@ textarea {
 .list-item.TASK_ARCHIVED input[type="text"] {
   /* color: #a0aec0; /* Not accesible */
   color: #4a5568; /* Accesible */
-  color: red;
   text-decoration: line-through;
 }
 
