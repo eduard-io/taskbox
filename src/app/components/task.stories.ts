@@ -10,7 +10,7 @@ export const actionsData = {
 };
 
 const meta: Meta<TaskComponent> = {
-  title: 'Task',
+  title: 'Design System/Molecule/Task',
   component: TaskComponent,
   excludeStories: /.*Data$/,
   tags: ['autodocs'],

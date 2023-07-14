@@ -12,7 +12,7 @@ import * as TaskStories from './task.stories';
 
 const meta: Meta<PureTaskListComponent> = {
   component: PureTaskListComponent,
-  title: 'PureTaskList',
+  title: 'Design System/Organism/PureTaskList',
   tags: ['autodocs'],
   decorators: [
     moduleMetadata({

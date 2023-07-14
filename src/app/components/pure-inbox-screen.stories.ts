@@ -17,7 +17,7 @@ import { TaskModule } from './task.module';
 
 const meta: Meta<PureInboxScreenComponent> = {
   component: PureInboxScreenComponent,
-  title: 'PureInboxScreen',
+  title: 'App/Page/PureInboxScreen',
   tags: ['autodocs'],
   decorators: [
     moduleMetadata({
